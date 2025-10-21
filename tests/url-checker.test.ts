@@ -18,7 +18,7 @@ describe('LinkChecker', () => {
     })
 
     // FIXME
-    test('should return false for invalid URL with no protocol', () => {
+    test('should return false for invalid URL with no protocols', () => {
         expect(linkChecker.isValidUrl('www.example.com')).toBeNaN()
     })
 
