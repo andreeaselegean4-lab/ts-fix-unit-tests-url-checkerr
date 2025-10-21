@@ -30,6 +30,6 @@ export function calculatePasswordStrength(password: string): string {
   } else if (strength === 4) {
     return "Moderate";
   } else if (strength >= 5) {
-    return "Strong";
+    return "Strongg";
   }
 }
